@@ -12,15 +12,12 @@ This plugin is used like most other Cordova plugins:<br/>
 2) In "Cordova.plist", add a new entry to the "Plugins" section with key=GoogleTTS and value=GoogleTTS<br/>
 3) Copy the GoogleTTS.js file to somewhere in your web directory for Cordova<br/>
 4) Add the script to your html:<br/>
-*Make sure you give it the correct path to where you have the file<br/>
-<br/>
+*Make sure you give it the correct path to where you have the file
 ```html
 <script src="../libs/GoogleTTS.js"></script>
 ```
-<br/>
 5) Paste the code from "index.js" into your code and customize using your own words<br/>
-*You currently need a '+' instead of a space. This will be changed soon.<br/>
-<br/>
+*You currently need a '+' instead of a space. This will be changed soon.
 ```javascript
 window.plugins.GoogleTTS.speak("This+is+a+text+to+speech+test", speechSuccess, speechFail);
 ```
@@ -28,6 +25,6 @@ window.plugins.GoogleTTS.speak("This+is+a+text+to+speech+test", speechSuccess, s
 Contact
 ----------
 
-If you have any questions/comments you can contact me here or at neilmonday [at] gmail.com
+If you have any questions/comments you can contact me on GitHub or at neilmonday [at] gmail.com
 
 Thanks!
