@@ -14,7 +14,9 @@ This plugin is used like most other Cordova plugins:<br/>
 4) Add the script to your html:<br/>
 *Make sure you give it the correct path to where you have the file<br/>
 <br/>
-<script src="../libs/GoogleTTS.js"></script><br/>
+```html
+<script src="../libs/GoogleTTS.js"></script>
+```
 <br/>
 5) Paste the code from "index.js" into your code and customize using your own words<br/>
 *You currently need a '+' instead of a space. This will be changed soon.<br/>
