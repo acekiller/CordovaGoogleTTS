@@ -1,10 +1,8 @@
-==========
 GoogleTTS
 ==========
 
 This is a plugin for Cordova users that utilizes Google's TTS service. Currently this is only available for iOS, but it should soon be available for Android as well. Google's TTS service requires you to have an internet connection to utilize TTS.
 
-==========
 Usage
 ==========
 
@@ -23,7 +21,6 @@ This plugin is used like most other Cordova plugins:
 
 window.plugins.GoogleTTS.speak("This+is+a+text+to+speech+test", speechSuccess, speechFail);
 
-==========
 Contact
 ==========
 
